@@ -2,12 +2,15 @@
 
 .main {
    display: flex;
-   flex-direction: column;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
    gap: 1em;
 }
 
 .ytv {
-    
+    max-height: 650px;
 }
 .ytv__bottom {
     display: inline-flex;
@@ -31,17 +34,15 @@
     justify-content: flex-end;
     flex-grow: 1;
 }
-.ytv__right > .btn{
 
-}
 .profile {
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .profile__text {
-    
 }
 .icon {
-
 }
 .btn--flex {
 
