@@ -1,6 +1,8 @@
 /* DOKUMENT STYLŮ K ÚPRAVĚ */
 
 .main {
+   display: flex;
+   flex-direction: column;
    gap: 1em;
 }
 
@@ -8,13 +10,26 @@
     
 }
 .ytv__bottom {
-    
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .ytv__left {
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
 }
 .ytv__right {
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+.ytv__right > .btn{
+
 }
 .profile {
     
@@ -26,5 +41,10 @@
 
 }
 .btn--flex {
-    
+
+}
+.btn{
+   display: flex;
+   flex-direction: row;
+   max-height: 20px;
 }
