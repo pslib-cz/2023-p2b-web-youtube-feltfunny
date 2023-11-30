@@ -16,10 +16,12 @@
     align-items: center;
 }
 .ytv__left {
+    flex-grow: 1;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: center;
+    justify-content: flex-start;
 
 }
 .ytv__right {
@@ -27,6 +29,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-end;
+    flex-grow: 1;
 }
 .ytv__right > .btn{
 
